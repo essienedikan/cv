@@ -1,0 +1,195 @@
+
+#title{
+    background-color: #7286D3;
+    color: #fff;
+ 
+}
+
+body{
+    font-family: "Montserrat";
+
+}
+h1{
+    font-family: "Montserrat-Black", sans-serif ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+h2{
+    font-family: "Montserrat" ;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: "Montserrat-Bold";
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/*Navigation Bar  */
+
+.navbar{
+padding-bottom: 4.5rem;
+
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: "Montserrat-Light";
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+
+.download-button{
+ margin: 5% 3% 5% 0;
+}
+
+/* Title-image */
+
+
+
+/* Features */
+
+.icon{
+    color:#579BB1 ;
+    margin-bottom: 1rem;
+    text-align: center;
+  
+
+}
+.features-heading{
+    text-align: center;
+}
+
+.features-heading-one{
+    color: #40514E;
+}
+
+.icon:hover{
+    color: #7286D3;
+}
+
+.title-img{
+    width: 500px;
+    height: 500px;
+
+   position: absolute;
+    right: 100px;
+    
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+   
+    
+    
+    
+}
+/* Testimonials section */
+
+#testimonials{
+   
+    text-align: center;
+    background-color: #7286D3;
+    color: #fff;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+
+#press{
+    background-color: #7286D3;
+    text-align: center;
+   
+}
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;}
+
+    /* Call To action */
+
+   #cta{
+    padding: 5% 15%;
+    background-color: #7286D3;
+    text-align: center;
+   
+ 
+    color: #fff;
+
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+   
+.downloads-button{
+    margin: 4% 3% 5% 0;
+   }
+
+#footer{
+    background-color: #fff;
+    padding: 3% 10%;
+    text-align: center;
+}
+
+.copyright-name{
+    color: #40514E;
+    font-size: 0.75rem;
+    padding-top: 10px;
+}
+
+.fa-icon{
+    margin: 10px;
+}
+
+
+    @media (max-width: 990px){
+
+        .title-img {
+             transform: rotate(0);
+            position: static;}
+
+
+            #title{
+                text-align: center;}
+             
+        }

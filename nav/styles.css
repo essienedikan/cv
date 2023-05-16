@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    background-color: #ffff;
+    height: 100%;
+    width: 100%;
+ padding: 2% 6%;
+
+}
+nav img{
+  width: 50px;
+}
+
+nav{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.nav-bar{
+  flex: 1;
+text-align: right;
+}
+
+ul li{
+display: inline-block;
+
+}
+
+ul a{
+   list-style: none;
+   margin: 20px;
+   font-size: 20px;
+   text-decoration: none;
+ color: blue ;
+}
+
+ul a:hover {
+ border-bottom: 3px solid blue;
+ transition: 0.5s;
+}
